@@ -5,17 +5,44 @@
   box-sizing: border-box;
 }
 
-/* Body styling with background image */
+/* Body styling */
 body {
   min-height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url('pill\ bottle.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-color: #f0f0f0;
   font-family: Arial, sans-serif;
+  gap: 30px;
+}
+
+/* Bottle container */
+.bottle-container {
+  position: relative;
+  display: inline-block;
+}
+
+/* Bottle image */
+.bottle-image {
+  width: 400px;
+  height: auto;
+  display: block;
+}
+
+/* Text on the label - ADJUST POSITION TO MATCH YOUR BOTTLE */
+.label-text {
+  position: absolute;
+  top: 50%;  /* Adjust this */
+  left: 50%; /* Adjust this */
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  max-width: 150px;
+  word-wrap: break-word;
+  padding: 5px;
 }
 
 /* Container for button and text */
@@ -23,14 +50,20 @@ body {
   text-align: center;
 }
 
-/* Image button styling */
+/* Button styling */
 #pillButton {
-  width: 200px;
-  height: auto;
+  background: none;
+  border: none;
+  padding: 0;
   cursor: pointer;
   transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+/* Image inside button */
+#pillButton img {
+  width: 200px;
+  height: auto;
   display: block;
-  margin: 0 auto;
 }
 
 /* Hover effect for button */
@@ -49,5 +82,5 @@ body {
   margin-top: 15px;
   font-size: 18px;
   color: #333;
-  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8);
+  font-weight: bold;
 }
