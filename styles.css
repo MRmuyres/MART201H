@@ -30,11 +30,11 @@ body {
   display: block;
 }
 
-/* Text on the label - ADJUST POSITION TO MATCH YOUR BOTTLE */
+/* Text on the label */
 .label-text {
   position: absolute;
-  top: 50%;  /* Adjust this */
-  left: 50%; /* Adjust this */
+  top: 60%;  
+  left: 50%; 
   transform: translate(-50%, -50%);
   font-size: 20px;
   font-weight: bold;
