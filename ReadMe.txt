@@ -1,0 +1,4 @@
+This is a project for History of Digital Art and Culture, inspired by the Learning to Love You More prompt #40 "Heal yourself." This project is meant to be a critique on health services and facilities for both physical and mental conditions.
+
+For my entire life, I have been challenged with Hypermobility Spectrum Disorder, a condition that makes my ligaments too flexible to old my joints in their proper place. This causes my joints to randomly slip out of place, most commonly my knees, rendering my limbs useless. It also comes with chronic pain and fatigue. I also struggle with Major Depressive Disorder, and have dealt with its symptoms since I was in middle school. 
+I only recently got these diagnoses after fighting doctor after doctor to listen to me. This project features many of the things that have been told to me by health professionals.  
